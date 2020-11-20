@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <layer-list>
+            <item android:left="5dp" android:top="5dp">
+                <shape>
+                    <corners android:radius="3dp"/>
+                    <solid android:color="#1a000000"/>
+                    <corners android:topLeftRadius="10dp" android:topRightRadius="10dp" android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+                </shape>
+            </item>
+            <item android:left="1dp" android:bottom="1dp">
+                <shape android:id="@+id/listview_background_shape">
+                    <gradient android:startColor="#ffffff" android:endColor="#ffffff" android:angle="180" android:type="linear"/>
+                    <corners android:topLeftRadius="10dp" android:topRightRadius="10dp" android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
