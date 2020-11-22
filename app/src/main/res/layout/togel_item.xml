@@ -24,22 +24,12 @@
         android:textSize="13dp"
         />
     <TextView
-        android:id="@+id/flower_text"
+        android:id="@+id/togel_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:layout_marginLeft="100dp"
         android:textColor="@color/bg"
-        android:text="Club Bola"
-        android:textSize="15dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:layout_marginLeft="310dp"
-        android:textColor="@color/bg"
-        android:text="00 - 00"
-        android:textSize="15dp"
-        />
+        android:text="No Togel"
+        android:textSize="15dp" />
 </FrameLayout>

@@ -26,11 +26,17 @@ class MainActivity : AppCompatActivity() {
             spinner.adapter = adapter
         }
 
-        val button = findViewById<Button>(R.id.scrore)
-        button.setOnClickListener {
+        val btn_scrore = findViewById<Button>(R.id.scrore)
+        btn_scrore.setOnClickListener {
             val intent = Intent(this, scrore::class.java)
             startActivity(intent)
 
+        }
+
+        val btn_togel = findViewById<Button>(R.id.togel)
+        btn_togel.setOnClickListener {
+            val intent = Intent(this, togel::class.java)
+            startActivity(intent)
         }
     }
 }

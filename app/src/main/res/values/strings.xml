@@ -9,5 +9,8 @@
         <item>Arsenal  - Manchester City </item>
         <item>PSG  - Juventus </item>
         <item>Chelsea  - Real Madrid </item>
+        <item>Manchester United  - Chelsea </item>
+        <item>Barcelona  - Real Madrid </item>
+        <item>PSG  - Barcelona </item>
     </string-array>
 </resources>

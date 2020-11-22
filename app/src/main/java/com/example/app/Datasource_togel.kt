@@ -18,11 +18,11 @@ package com.example.app
 
 import android.content.Context
 
-class Datasource(val context: Context) {
-    fun getFlowerList(): Array<String> {
+class Datasource_togel(val context: Context) {
+    fun getTogelList(): Array<String> {
 
         // Return flower list from string resources
-        return context.resources.getStringArray(R.array.flower_array)
+        return context.resources.getStringArray(R.array.togel_array)
     }
 }
 
