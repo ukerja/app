@@ -9,9 +9,9 @@ class togel : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_togel)
         // Retrieves data from datasource
-        val togelList = Datasource_togel(this).getTogelList()
+      //  val togelList = Datasource_togel(this).getTogelList()
 
-        val recyclerView: RecyclerView = findViewById(R.id.recycler_togel)
-        recyclerView.adapter = TogelAdapter(togelList)
+       // val recyclerView: RecyclerView = findViewById(R.id.recycler_togel)
+       // recyclerView.adapter = TogelAdapter(togelList)
     }
 }

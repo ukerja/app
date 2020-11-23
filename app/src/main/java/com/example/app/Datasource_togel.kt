@@ -16,9 +16,9 @@
 
 package com.example.app
 
-import android.content.Context
+import com.example.app.ui.gallery.GalleryFragment
 
-class Datasource_togel(val context: Context) {
+class Datasource_togel(val context: GalleryFragment) {
     fun getTogelList(): Array<String> {
 
         // Return flower list from string resources
