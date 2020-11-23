@@ -10,9 +10,9 @@ class scrore : AppCompatActivity() {
         setContentView(R.layout.activity_scrore)
 
         // Retrieves data from datasource
-        val flowerList = Datasource(this).getFlowerList()
+       // val flowerList = Datasource(this).getFlowerList()
 
-        val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
-        recyclerView.adapter = FlowerAdapter(flowerList)
+       // val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
+        //recyclerView.adapter = FlowerAdapter(flowerList)
     }
 }

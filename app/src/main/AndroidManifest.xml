@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App">
-        <activity android:name=".togel"></activity>
+        <activity
+            android:name=".SideActivity"
+            android:label="@string/title_activity_side"
+            android:theme="@style/Theme.App.NoActionBar"></activity>
+        <activity android:name=".side_main" />
+        <activity
+            android:name=".side"
+            android:label="@string/title_activity_side"
+            android:theme="@style/Theme.App.NoActionBar" />
+        <activity android:name=".togel" />
         <activity android:name=".scrore" />
         <activity android:name=".MainActivity">
             <intent-filter>

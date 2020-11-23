@@ -16,9 +16,9 @@
 
 package com.example.app
 
-import android.content.Context
+import com.example.app.ui.home.HomeFragment
 
-class Datasource(val context: Context) {
+class Datasource(val context: HomeFragment) {
     fun getFlowerList(): Array<String> {
 
         // Return flower list from string resources
