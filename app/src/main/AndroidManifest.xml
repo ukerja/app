@@ -12,8 +12,16 @@
         <activity
             android:name=".SideActivity"
             android:label="@string/title_activity_side"
-            android:theme="@style/Theme.App.NoActionBar"></activity>
-        <activity android:name=".side_main" />
+            android:theme="@style/Theme.App.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".side_main" >
+
+        </activity>
         <activity
             android:name=".side"
             android:label="@string/title_activity_side"
@@ -21,11 +29,7 @@
         <activity android:name=".togel" />
         <activity android:name=".scrore" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
