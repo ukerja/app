@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App">
+        <activity android:name=".withdraw"></activity>
+        <activity android:name=".deposit" />
         <activity
             android:name=".SideActivity"
             android:label="@string/title_activity_side"
@@ -19,18 +21,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".side_main" >
-
-        </activity>
+        <activity android:name=".side_main" />
         <activity
             android:name=".side"
             android:label="@string/title_activity_side"
             android:theme="@style/Theme.App.NoActionBar" />
         <activity android:name=".togel" />
         <activity android:name=".scrore" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

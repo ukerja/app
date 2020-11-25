@@ -21,5 +21,17 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.app.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/activity_main" />
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_with"
+        android:name="com.example.app.ui.slideshow.WithdrawFragment"
+        android:label="@string/menu_with"
+        tools:layout="@layout/activity_withdraw" />
+    
+    <fragment
+        android:id="@+id/nav_dp"
+        android:name="com.example.app.ui.slideshow.DepositFragment"
+        android:label="@string/menu_dp"
+        tools:layout="@layout/activity_deposit" />
 </navigation>
