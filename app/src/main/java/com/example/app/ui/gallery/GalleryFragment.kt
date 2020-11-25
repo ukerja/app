@@ -29,10 +29,11 @@ class GalleryFragment : Fragment() {
             ).get(GalleryViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_gallery, container, false)
         val textView: TextView = root.findViewById(R.id.text_gallery)
-        val togelList = Datasource_togel(this).getTogelList()
 
+        val togelList = Datasource_togel(this).getTogelList()
         val recyclerView: RecyclerView = root.findViewById(R.id.recycler_togel)
         recyclerView.adapter = TogelAdapter(togelList)
+
         galleryViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })

@@ -16,13 +16,17 @@
 
 package com.example.app
 
+import android.content.Context
 import com.example.app.ui.home.HomeFragment
+import com.example.app.ui.home.HomeViewModel
 
 class Datasource(val context: HomeFragment) {
+
     fun getFlowerList(): Array<String> {
 
         // Return flower list from string resources
         return context.resources.getStringArray(R.array.flower_array)
     }
+
 }
 

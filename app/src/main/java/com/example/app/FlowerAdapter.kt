@@ -7,6 +7,7 @@ import android.widget.TextView
 import android.support.v7.widget.RecyclerView
 
 class FlowerAdapter(val flowerList: Array<String>) :
+
     RecyclerView.Adapter<FlowerAdapter.FlowerViewHolder>() {
 
     // Describes an item view and its place within the RecyclerView
@@ -15,6 +16,7 @@ class FlowerAdapter(val flowerList: Array<String>) :
 
         fun bind(word: String) {
             flowerTextView.text = word
+
         }
     }
 
@@ -24,13 +26,14 @@ class FlowerAdapter(val flowerList: Array<String>) :
             .inflate(R.layout.flower_item, parent, false)
 
         return FlowerViewHolder(view)
+
     }
+
 
     // Returns size of data list
-    override fun getItemCount(): Int {
+    override fun getItemCount(): Int  {
         return flowerList.size
     }
-
     // Displays data at a certain position
     override fun onBindViewHolder(holder: FlowerViewHolder, position: Int) {
         holder.bind(flowerList[position])
