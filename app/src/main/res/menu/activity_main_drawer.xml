@@ -23,6 +23,6 @@
         <item
             android:id="@+id/nav_dp"
             android:icon="@drawable/ic_menu_money"
-            android:title="@string/menu_dp" />
+            android:title="@string/menu_daftar" />
     </group>
 </menu>

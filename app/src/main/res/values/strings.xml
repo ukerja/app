@@ -25,5 +25,6 @@
     <string name="menu_gallery">Togel</string>
     <string name="menu_slideshow">Daftar</string>
     <string name="menu_with">Withdraw</string>
+    <string name="menu_daftar">Daftar</string>
     <string name="menu_dp">Deposit</string>
 </resources>

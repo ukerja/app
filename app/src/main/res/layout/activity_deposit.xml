@@ -115,7 +115,7 @@
         android:layout_width="80dp"
         android:layout_height="30dp"
         android:background="@drawable/bgbtn"
-        android:text="WITHDRAW"
+        android:text="DEPOSIT"
         android:textAlignment="center"
         android:textColor="@color/bg"
         android:textSize="12dp"
